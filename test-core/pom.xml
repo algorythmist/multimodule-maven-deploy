@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>test-deploy_parent</artifactId>
+        <groupId>com.tecacet</groupId>
+        <version>0.1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>test-core</artifactId>
+    <packaging>jar</packaging>
+
+    <name>module 1</name>
+
+    <scm>
+        <url>git@github.com:algorythmist/multimodule-maven-deploy.git</url>
+        <connection>scm:git:git@github.com:algorythmist/multimodule-maven-deploy.git</connection>
+        <developerConnection>scm:git:git@github.com:algorythmist/multimodule-maven-deploy.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/algorythmist/multimodule-maven-deploy/issues</url>
+    </issueManagement>
+
+    <ciManagement>
+        <system>Github Actions</system>
+        <url>https://github.com/algorythmist/multimodule-maven-deploy/actions</url>
+    </ciManagement>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>
